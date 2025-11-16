@@ -1,0 +1,16 @@
+Checklist de Conversión — DevCode
+
+10 errores que matan ventas en webs y cómo evitarlos:
+
+1) Titulares genéricos: usa beneficios concretos (ej: “Consigue más clientes en 5 días”).
+2) CTAs débiles: pide una acción clara (“Solicitar presupuesto en 60s”).
+3) Falta de confianza: añade garantías, plazos, soporte y casos reales.
+4) Demasiado texto: resume con bullets, destaca entregables y resultados.
+5) Imágenes pesadas: optimiza y usa formatos modernos (WebP) cuando sea posible.
+6) Navegación confusa: agrupa secciones y usa sticky header.
+7) Formulario largo: pide solo lo esencial y da alternativas (WhatsApp/Email).
+8) Sin comparativa de planes: clarifica diferencias y valor por paquete.
+9) Poca prueba social: testimonios y portfolio con enlaces accesibles.
+10) Sin seguimiento: añade lead magnet y captura contacto.
+
+Acción rápida: revisa tu homepage y corrige al menos 3 puntos hoy.
