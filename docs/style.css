@@ -101,3 +101,16 @@ html { scroll-behavior: smooth; }
   .grid-5 { grid-template-columns: 1fr; }
   .contact-form { grid-template-columns: 1fr; }
 }
+/* Layout del hero con imagen */
+.hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 24px; }
+.hero-content { text-align: left; }
+.hero-media img { width: 100%; max-width: 460px; border-radius: 16px; border: 1px solid #2a2f4c; box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
+
+/* Miniaturas del portfolio */
+.thumb { width: 100%; height: auto; border-radius: 12px; border: 1px solid #2a2f4c; margin-bottom: 12px; background: #1d223f; }
+
+/* Ajustes responsive */
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-content { text-align: center; }
+}
