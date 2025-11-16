@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevCode Demos</title>
+    <title>DevCode — Webs y CV minimalistas que convierten</title>
+    <meta name="description" content="DevCode crea páginas web y currículums online minimalistas, rápidos y claros para negocios y profesionales." />
+    <meta property="og:title" content="DevCode — Webs y CV que venden" />
+    <meta property="og:description" content="Diseño limpio, entregas rápidas y resultados claros. Demos listas y precios transparentes." />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,48 +16,167 @@
         <h1 class="logo">DevCode</h1>
         <nav class="nav">
           <a href="#servicios">Servicios</a>
-          <a href="#productos">Productos</a>
-          <a href="./devcode-cv/">CV Demo</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#precios">Precios</a>
+          <a href="#testimonios">Testimonios</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto" class="btn-primary btn-small">Contacto</a>
         </nav>
       </div>
     </header>
 
-    <main class="container">
-      <section class="hero">
+    <main>
+      <section class="hero container">
         <h2>Webs y CV minimalistas que venden</h2>
-        <p>DevCode: diseño limpio, entregas rápidas y resultados claros.</p>
+        <p>Diseño limpio, entregas rápidas y resultados claros. Demos reales y precios transparentes.</p>
         <div class="cta">
-          <a class="btn-primary" href="./">Ver Demo Web</a>
-          <a class="btn-secondary" href="./devcode-cv/">Ver Demo CV</a>
+          <a class="btn-primary" href="#contacto">Solicitar presupuesto</a>
+          <a class="btn-secondary" href="#portfolio">Ver demos</a>
         </div>
       </section>
 
-      <section id="servicios" class="features">
-        <div class="card">
-          <h3>Webs para negocios</h3>
-          <p>Landing 1–3 secciones, responsive y SEO básico.</p>
-        </div>
-        <div class="card">
-          <h3>CV Online profesional</h3>
-          <p>Perfil web con proyectos y contacto — listo en días.</p>
+      <section id="servicios" class="section container">
+        <h3 class="section-title">Servicios</h3>
+        <div class="grid-2">
+          <div class="card">
+            <h4>Webs para negocios</h4>
+            <ul class="list">
+              <li>Landing 1–3 secciones, responsive</li>
+              <li>SEO básico y formulario de contacto</li>
+              <li>Publicación en GitHub Pages</li>
+              <li>Guía de edición y 14 días de soporte</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>CV Online profesional</h4>
+            <ul class="list">
+              <li>Perfil web con experiencia y proyectos</li>
+              <li>Versión PDF y formulario de contacto</li>
+              <li>Despliegue en GitHub Pages</li>
+              <li>7 días de ajustes menores</li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section id="productos" class="features">
-        <div class="card">
-          <h3>Pack Plantillas Web</h3>
-          <p>5–10 plantillas minimalistas (HTML/CSS/JS) con guía.</p>
+      <section id="portfolio" class="section container">
+        <h3 class="section-title">Portfolio (demos)</h3>
+        <div class="grid-2">
+          <a class="card link-card" href="./" aria-label="Ver demo de Web Minimal">
+            <h4>Web Minimal</h4>
+            <p>Landing responsiva lista para publicar.</p>
+          </a>
+          <a class="card link-card" href="./devcode-cv/" aria-label="Ver demo de CV Profesional">
+            <h4>CV Profesional</h4>
+            <p>Currículum online simple y claro.</p>
+          </a>
         </div>
-        <div class="card">
-          <h3>Pack Plantillas CV</h3>
-          <p>3–5 estilos de CV en HTML/CSS y tutorial PDF.</p>
+      </section>
+
+      <section id="precios" class="section container">
+        <h3 class="section-title">Precios</h3>
+        <div class="grid-3">
+          <div class="card pricing">
+            <h4>Web Starter</h4>
+            <p class="price">60–120€</p>
+            <ul class="list">
+              <li>Landing 1 página</li>
+              <li>Formulario de contacto</li>
+              <li>Despliegue incluido</li>
+            </ul>
+          </div>
+          <div class="card pricing featured">
+            <h4>Web Pro</h4>
+            <p class="price">180–300€</p>
+            <ul class="list">
+              <li>3–5 secciones</li>
+              <li>SEO básico + 2 revisiones</li>
+              <li>Guía de edición</li>
+            </ul>
+          </div>
+          <div class="card pricing">
+            <h4>Web Express (48h)</h4>
+            <p class="price">150–220€</p>
+            <ul class="list">
+              <li>Entrega rápida</li>
+              <li>Componentes predefinidos</li>
+              <li>Publicación incluida</li>
+            </ul>
+          </div>
         </div>
+      </section>
+
+      <section id="testimonios" class="section container">
+        <h3 class="section-title">Testimonios (demo)</h3>
+        <div class="grid-3">
+          <div class="card quote">
+            <p>“La web quedó clara y profesional. Subió el contacto.”</p>
+            <small>— Negocio Demo</small>
+          </div>
+          <div class="card quote">
+            <p>“El CV online me ayudó a conseguir entrevistas.”</p>
+            <small>— Candidato Demo</small>
+          </div>
+          <div class="card quote">
+            <p>“Entrega rápida y sin complicaciones, justo lo que buscaba.”</p>
+            <small>— Emprendedor Demo</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="proceso" class="section container">
+        <h3 class="section-title">Proceso</h3>
+        <div class="grid-5 steps">
+          <div class="step card"><strong>1</strong><span>Briefing rápido</span></div>
+          <div class="step card"><strong>2</strong><span>Propuesta y precio</span></div>
+          <div class="step card"><strong>3</strong><span>Diseño y desarrollo</span></div>
+          <div class="step card"><strong>4</strong><span>Revisión y ajustes</span></div>
+          <div class="step card"><strong>5</strong><span>Publicación y guía</span></div>
+        </div>
+      </section>
+
+      <section id="faq" class="section container">
+        <h3 class="section-title">Preguntas frecuentes</h3>
+        <div class="faq">
+          <details>
+            <summary>¿Necesito hosting?</summary>
+            <p>No. Publicamos gratis con GitHub Pages.</p>
+          </details>
+          <details>
+            <summary>¿Qué plazos manejáis?</summary>
+            <p>Webs: 3–5 días. CV: 2–3 días.</p>
+          </details>
+          <details>
+            <summary>¿Incluye mantenimiento?</summary>
+            <p>Incluye ajustes menores durante 7–14 días según el servicio.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="contacto" class="section container contact">
+        <h3 class="section-title">Contacto</h3>
+        <form id="contactForm" class="contact-form">
+          <input id="name" type="text" placeholder="Tu nombre" required />
+          <input id="email" type="email" placeholder="Tu email" required />
+          <select id="service">
+            <option value="web">Web</option>
+            <option value="cv">CV Online</option>
+          </select>
+          <textarea id="message" rows="4" placeholder="Cuéntanos tu necesidad"></textarea>
+          <div class="contact-actions">
+            <button type="button" id="whatsappBtn" class="btn-primary">Enviar por WhatsApp</button>
+            <button type="button" id="emailBtn" class="btn-secondary">Enviar por Email</button>
+          </div>
+        </form>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container">
+      <div class="container footer-content">
         <small>© 2025 DevCode</small>
+        <div class="footer-links">
+          <a href="https://github.com/Antoniomba23/devcode-landing" target="_blank" rel="noopener">GitHub</a>
+        </div>
       </div>
     </footer>
 
