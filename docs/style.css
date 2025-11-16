@@ -1,0 +1,50 @@
+/* Copia de estilos base para DevCode Demos */
+
+* { box-sizing: border-box; }
+
+:root {
+  --bg: #0f1223;
+  --surface: #171a2f;
+  --text: #e7e9f5;
+  --muted: #b7b9c9;
+  --primary: #6c8bff;
+  --primary-contrast: #0b122e;
+}
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial;
+  background: linear-gradient(160deg, var(--bg), #0a0d1b 60%);
+  color: var(--text);
+}
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+
+.site-header { position: sticky; top: 0; backdrop-filter: blur(6px); background: color-mix(in oklab, var(--bg) 70%, transparent); border-bottom: 1px solid #262a45; }
+.header-content { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; }
+.logo { margin: 0; font-size: 1.25rem; }
+.nav a { color: var(--muted); text-decoration: none; margin-left: 16px; }
+.nav a:hover { color: var(--text); }
+
+.hero { text-align: center; padding: 56px 0 32px; }
+.hero h2 { margin: 0 0 8px 0; font-size: 2rem; }
+.hero p { margin: 0 0 20px 0; color: var(--muted); }
+
+.btn-primary, .btn-secondary { display: inline-block; border: none; border-radius: 10px; padding: 12px 18px; cursor: pointer; font-weight: 600; }
+.btn-primary { background: var(--primary); color: var(--primary-contrast); }
+.btn-primary:hover { filter: brightness(1.1); }
+.btn-secondary { background: #2b3052; color: var(--text); }
+
+.features { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 24px 0 40px; }
+.card { background: var(--surface); border: 1px solid #2a2f4c; padding: 16px; border-radius: 12px; }
+.card h3 { margin-top: 0; }
+.card p { color: var(--muted); }
+
+.site-footer { border-top: 1px solid #262a45; padding: 20px 0; color: var(--muted); }
+
+@media (max-width: 800px) {
+  .features { grid-template-columns: 1fr; }
+  .header-content { flex-direction: column; gap: 8px; align-items: flex-start; }
+}
